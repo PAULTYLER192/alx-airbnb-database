@@ -29,3 +29,13 @@ This directory contains SQL scripts for advanced database operations on the ALX 
   - a) Aggregation function to count bookings per user.
   - b) Window function to rank properties by total number of bookings
 - **Status**: Completed - Queries implemented, Task 3b updated to use RANK() and ROW_NUMBER() to address review feedback inconsistencies.
+
+## Task 4: Indexing for Optimization
+- **Objective**: Improve query performance with indexing.
+- **Files**:
+  - `indexing_optimization.sql`: Contains index creation and performance analysis queries.
+- **Instructions**:
+  - a) Create an index on the user_id column in bookings.
+  - b) Create an index on the property_id column in bookings.
+  - c) Use EXPLAIN ANALYZE to compare JOIN performance before and after the user_id index.
+- **Status**: In progress - Indexes and performance comparison implemented in `indexing_optimization.sql`.
