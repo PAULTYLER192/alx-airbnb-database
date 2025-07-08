@@ -23,4 +23,5 @@ SELECT
     b.total_price AS payment_amount
 FROM bookings b
 LEFT JOIN users u ON b.user_id = u.id
-LEFT JOIN properties p ON b.property_id = p.id;
+LEFT JOIN properties p ON b.property_id = p.id
+WHERE b.check_in >= '2025-07-01' AND b.check_in < '2025-08-01';
