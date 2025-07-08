@@ -39,3 +39,14 @@ This directory contains SQL scripts for advanced database operations on the ALX 
   - b) Create an index on the property_id column in bookings.
   - c) Use EXPLAIN ANALYZE to compare JOIN performance before and after the user_id index.
 - **Status**: In progress - Indexes and performance comparison implemented in `indexing_optimization.sql`.
+
+## Task 5: Partitioning for Scalability
+- **Objective**: Enhance scalability with table partitioning.
+- **Files**:
+  - `performance.sql`: Contains partitioning setup and performance test.
+  - `optimization_report.md`: Documents partitioning strategy and results.
+- **Instructions**:
+  - a) Partition the bookings table by check_in date.
+  - b) Test performance with EXPLAIN ANALYZE.
+  - c) Document the strategy and results in optimization_report.md.
+- **Status**: In progress - Partitioning and performance analysis implemented
