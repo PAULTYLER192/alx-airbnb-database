@@ -7,7 +7,8 @@ ORDER BY booking_count DESC;
 
 -- Task 3b: Window function to rank properties based on the total number of bookings they have received
 SELECT subquery.property_id, subquery.title, subquery.booking_count,
-       ROW_NUMBER() OVER (ORDER BY subquery.booking_count DESC) AS booking_rank
+       RANK() OVER (ORDER BY subquery.booking_count DESC) AS booking_rank,
+       ROW_NUMBER() OVER (ORDER BY subquery.booking_count DESC) AS row_number_rank
 FROM (
     SELECT p.id AS property_id, p.title, COUNT(b.id) AS booking_count
     FROM properties p

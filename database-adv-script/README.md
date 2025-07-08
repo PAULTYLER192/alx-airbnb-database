@@ -27,5 +27,5 @@ This directory contains SQL scripts for advanced database operations on the ALX 
   - `aggregations_and_window_functions.sql`: Contains queries using aggregation and window functions.
 - **Instructions**:
   - a) Aggregation function to count bookings per user.
-  - b) Window function to rank properties by total booking price
-- **Status**: Completed - Queries implemented and Task 3b fixed for correct column referencing.
+  - b) Window function to rank properties by total number of bookings
+- **Status**: Completed - Queries implemented, Task 3b updated to use RANK() and ROW_NUMBER() to address review feedback inconsistencies.
