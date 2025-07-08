@@ -60,3 +60,14 @@ This directory contains SQL scripts for advanced database operations on the ALX 
   - b) Test performance with EXPLAIN ANALYZE.
   - c) Document the strategy and results in partition_performance.md.
 - **Status**: In progress - Partitioning and performance analysis implemented
+
+
+## Task 7: Monitoring and Refining Database Performance
+- **Objective**: Continuously monitor and refine database performance.
+- **Files**:
+  - `performance_monitoring.md`: Documents query analysis and improvements.
+- **Instructions**:
+  - a) Monitor performance with EXPLAIN ANALYZE.
+  - b) Identify bottlenecks and suggest changes.
+  - c) Implement changes and report improvements.
+- **Status**: In progress - Performance monitoring and refinements implemented
