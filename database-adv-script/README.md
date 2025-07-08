@@ -20,3 +20,12 @@ This directory contains SQL scripts for advanced database operations on the ALX 
   - a) Non-correlated subquery to find properties with price above average.
   - b) Correlated subquery to find users with more than 3 bookings.
 - **Status**: Completed - Queries updated to include average rating > 4.0 and > 3 bookings check.
+
+## Task 3: Aggregations and Window Functions
+- **Objective**: Enhance SQL skills with aggregations and window functions.
+- **Files**:
+  - `aggregations_and_window_functions.sql`: Contains queries using aggregation and window functions.
+- **Instructions**:
+  - a) Aggregation function to count bookings per user.
+  - b) Window function to rank properties by total booking price.
+- **Status**: In progress - Queries implemented in `aggregations_and_window_functions.sql` .
