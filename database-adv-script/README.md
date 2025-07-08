@@ -49,3 +49,14 @@ This directory contains SQL scripts for advanced database operations on the ALX 
   - a) Retrieve all bookings with user, property, and payment details.
   - b) Analyze query performance with EXPLAIN and identify inefficiencies.
 - **Status**: In progress - Query and analysis implemented in `performance.sql` .
+
+## Task 6: Partitioning Large Tables
+- **Objective**: Enhance scalability with table partitioning.
+- **Files**:
+  - `partitioning.sql`: Contains partitioning setup and performance test.
+  - `partition_performance.md`: Documents partitioning strategy and results.
+- **Instructions**:
+  - a) Partition the bookings table by check_in date.
+  - b) Test performance with EXPLAIN ANALYZE.
+  - c) Document the strategy and results in partition_performance.md.
+- **Status**: In progress - Partitioning and performance analysis implemented
