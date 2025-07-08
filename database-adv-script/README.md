@@ -28,4 +28,4 @@ This directory contains SQL scripts for advanced database operations on the ALX 
 - **Instructions**:
   - a) Aggregation function to count bookings per user.
   - b) Window function to rank properties by total booking price.
-- **Status**: In progress - Queries implemented in `aggregations_and_window_functions.sql` .
+- **Status**: Completed - Queries implemented and Task 3b fixed for correct column referencing.

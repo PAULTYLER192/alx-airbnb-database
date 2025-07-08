@@ -6,10 +6,10 @@ GROUP BY u.id, u.username
 ORDER BY booking_count DESC;
 
 -- Task 3b: Window function to rank properties based on the total price of their bookings
-SELECT p.id AS property_id, p.title, total_booking_price,
-       RANK() OVER (ORDER BY total_booking_price DESC) AS price_rank
+SELECT subquery.property_id, subquery.title, subquery.total_booking_price,
+       RANK() OVER (ORDER BY subquery.total_booking_price DESC) AS price_rank
 FROM (
-    SELECT p.id, p.title, COALESCE(SUM(b.total_price), 0) AS total_booking_price
+    SELECT p.id AS property_id, p.title, COALESCE(SUM(b.total_price), 0) AS total_booking_price
     FROM properties p
     LEFT JOIN bookings b ON p.id = b.property_id
     GROUP BY p.id, p.title
