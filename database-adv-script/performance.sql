@@ -4,11 +4,12 @@ DROP TABLE IF EXISTS bookings CASCADE;
 
 -- Create the parent partitioned table
 CREATE TABLE bookings (
-    id SERIAL PRIMARY KEY,
+    id SERIAL ,
     property_id INT,
     user_id INT,
     check_in DATE,
-    total_price DECIMAL(10, 2)
+    total_price DECIMAL(10, 2),
+    PRIMARY KEY (id, check_in)
 ) PARTITION BY RANGE (check_in);
 
 -- Creating monthly partitions for July and August 2025
