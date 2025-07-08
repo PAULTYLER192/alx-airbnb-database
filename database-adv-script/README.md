@@ -18,5 +18,5 @@ This directory contains SQL scripts for advanced database operations on the ALX 
   - `subqueries.sql`: Contains queries using non-correlated and correlated subqueries.
 - **Instructions**:
   - a) Non-correlated subquery to find properties with price above average.
-  - b) Correlated subquery to find users with more than 2 bookings.
-- **Status**: In progress - Queries implemented in `subqueries.sql` .
+  - b) Correlated subquery to find users with more than 3 bookings.
+- **Status**: Completed - Queries updated to include average rating > 4.0 and > 3 bookings check.
